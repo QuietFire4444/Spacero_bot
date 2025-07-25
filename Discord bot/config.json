@@ -1,0 +1,22 @@
+{
+  "prefix": ">",
+  "log_file": "discord.log",
+  "debug_mode": true,
+  "features": {
+    "moderation": {
+      "soft_ban": true,
+      "hard_ban": true,
+      "mutes": true,
+      "timeouts": true
+    },
+    "welcome_messages": true,
+    "logging": true
+  },
+  "permissions": {
+    "admin_roles": ["Administrator", "Bot Manager"],
+    "mod_roles": ["Staff"],
+    "protected_roles": ["Protected"],
+    "super_protected_roles": ["Super Protected"],
+    "allowed_users": []
+  }
+}
