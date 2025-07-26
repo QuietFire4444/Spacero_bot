@@ -1,0 +1,26 @@
+{
+  "prefix": ">",
+  "log_file": "discord.log",
+  "debug_mode": true,
+  "features": {
+    "moderation": true,
+    "welcome_messages": true,
+    "logging": true
+  },
+  "protections": {
+  "super_protected_role": "Super Protected",
+  "protected_role": "Protected"
+},
+  "permissions": {
+    "admin_roles": [
+      "Administrator",
+      "Bot Manager"
+    ],
+    "mod_roles": [
+      "Moderator"
+    ],
+    "allowed_users": [
+      "1054567324717432843"
+    ]
+  }
+}
